@@ -1,0 +1,16 @@
+body{
+    background-size: cover;
+}
+h1{
+    font-size: 60px;
+    color: rgb(240, 29, 240);
+    font-family: cursive;
+    margin-top: 200px;
+}
+button{
+    margin: 20px;
+    width: 200px;
+    background-color: plum;
+    font-size: 25px !important;
+    font-family: cursive;
+}

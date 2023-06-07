@@ -1,0 +1,169 @@
+song1="";
+song2="";
+song3="";
+song4="";
+song5="";
+song6="";
+song7="";
+song8="";
+song9="";
+song1_status="";
+song2_status="";
+song3_status="";
+song4_status="";
+song5_status="";
+song6_status="";
+song7_status="";
+song8_status="";
+song9_status="";
+function videoscreen(){
+    window.location="video.html";
+}
+function imagescreen(){
+    window.location="images.html";
+}
+function gamescreen(){
+    window.location="games.html";
+}
+function preload(){
+    song1=loadSound("Bones.mp3");
+    song2=loadSound("calm.mp3");
+    song3=loadSound("Excuses.mp3");
+    song4=loadSound("Kaun.mp3");
+    song5=loadSound("Kesariya.mp3");
+    song6=loadSound("Pasoori.mp3");
+    song7=loadSound("Raat.mp3");
+    song8=loadSound("Let me.mp3");
+    song9=loadSound("Zindagi.mp3");
+}
+function SongsScreen(){
+    window.location="songs.html";
+}
+function draw(){
+    song1_status=song1.isPlaying();
+    song2_status=song2.isPlaying();
+    song3_status=song3.isPlaying();
+    song4_status=song4.isPlaying();
+    song5_status=song5.isPlaying();
+    song6_status=song6.isPlaying();
+    song7_status=song7.isPlaying();
+    song8_status=song8.isPlaying();
+    song9_status=song9.isPlaying();
+}
+function music1(){
+    if(song6_status==false){
+        song6.play();
+        song1.stop();
+        song2.stop();
+        song3.stop();
+        song4.stop();
+        song5.stop();
+        song7.stop();
+        song8.stop();
+        song9.stop();
+    }
+}
+function music2(){
+    if(song3_status==false){
+        song3.play();
+        song1.stop();
+        song2.stop();
+        song6.stop();
+        song4.stop();
+        song5.stop();
+        song7.stop();
+        song8.stop();
+        song9.stop();
+    }
+}
+function music3(){
+    if(song1_status==false){
+        song1.play();
+        song6.stop();
+        song2.stop();
+        song3.stop();
+        song4.stop();
+        song5.stop();
+        song7.stop();
+        song8.stop();
+        song9.stop();
+    }
+}
+function music4(){
+    if(song8_status==false){
+        song8.play();
+        song1.stop();
+        song2.stop();
+        song3.stop();
+        song4.stop();
+        song5.stop();
+        song7.stop();
+        song6.stop();
+        song9.stop();
+    }
+}
+function music5(){
+    if(song4_status==false){
+        song4.play();
+        song1.stop();
+        song2.stop();
+        song3.stop();
+        song6.stop();
+        song5.stop();
+        song7.stop();
+        song8.stop();
+        song9.stop();
+    }
+}
+function music6(){
+    if(song5_status==false){
+        song5.play();
+        song1.stop();
+        song2.stop();
+        song3.stop();
+        song4.stop();
+        song6.stop();
+        song7.stop();
+        song8.stop();
+        song9.stop();
+    }
+}
+function music7(){
+    if(song2_status==false){
+        song2.play();
+        song1.stop();
+        song6.stop();
+        song3.stop();
+        song4.stop();
+        song5.stop();
+        song7.stop();
+        song8.stop();
+        song9.stop();
+    }
+}
+function music8(){
+    if(song7_status==false){
+        song7.play();
+        song1.stop();
+        song2.stop();
+        song3.stop();
+        song4.stop();
+        song5.stop();
+        song6.stop();
+        song8.stop();
+        song9.stop();
+    }
+}
+function music9(){
+    if(song9_status==false){
+        song9.play();
+        song1.stop();
+        song2.stop();
+        song3.stop();
+        song4.stop();
+        song5.stop();
+        song7.stop();
+        song8.stop();
+        song6.stop();
+    }
+}
